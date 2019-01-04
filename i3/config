@@ -215,6 +215,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id feh --bg-scale /usr/share/backgrounds/80sWave.jpg
 exec --no-startup-id flameshot
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec --no-startup-id megasync
 
 # Lock screen
 bindsym $mod+b exec --no-startup-id blurlock
