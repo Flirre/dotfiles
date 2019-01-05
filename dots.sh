@@ -5,3 +5,4 @@ fi
 (cp /home/$USER/.config/compton.conf ./ && echo "Successfully backed up Compton config.") || echo "Compton backup failed."
 (cp -r /home/$USER/.config/polybar/ ./ && echo "Successfully backed up Polybar config.") || echo "Polybar backup failed."
 (cp -r /home/$USER/.config/kitty/ ./ && echo "Successfully backed up KiTTy config.") || echo "KiTTy backup failed."
+(cp -r /home/$USER/.config/fish/ ./ && echo "Successfully backed up fish config.") || echo "fish backup failed."
