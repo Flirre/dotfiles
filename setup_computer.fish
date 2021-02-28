@@ -1,5 +1,6 @@
 #!/usr/bin/env fish
 
+complete -c setup_computer -x -a "-a -all -b --base -h --home -w --work"
 function setup_computer
     function permitted_flags
         echo "Permitted flags:
