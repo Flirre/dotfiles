@@ -33,6 +33,7 @@ end
 
 # Add doom to path if not already added.
 if not contains /home/*/.emacs.d/bin $fish_user_paths
+    echo "Adding DOOM to user path"
     set -Ua fish_user_paths ~/.emacs.d/bin
 else
     echo "DOOM Emacs already present on path"
