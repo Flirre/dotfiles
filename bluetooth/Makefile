@@ -7,6 +7,7 @@ DRV_DIR	:= $(MDL_DIR)/kernel/drivers/bluetooth
 
 install:
 ifeq (,$(filter usb uart all,$(INTERFACE)))
+	@echo "make sure to install linux headers as well otherwise broken"
 	@echo "Usage: sudo make install INTERFACE=[rtkbt_interface]"
 	@echo "rtkbt_interface:"
 	@echo " all	USB and UART"
