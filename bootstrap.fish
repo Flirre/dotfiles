@@ -13,3 +13,7 @@ omf install https://github.com/jhillyerd/plugin-git
 
 # fish.nvm
 fisher install jorgebucaran/nvm.fish
+
+# use nvm to install latest node version for
+# local user package installations without sudo
+nvm install latest
