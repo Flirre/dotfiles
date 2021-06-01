@@ -17,3 +17,6 @@ fisher install jorgebucaran/nvm.fish
 # use nvm to install latest node version for
 # local user package installations without sudo
 nvm install latest
+
+# and set it as default nvm version for all following shells
+set --universal nvm_default_version latest
