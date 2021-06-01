@@ -20,7 +20,7 @@ end
 
 if not test -d ~/.emacs.d/.local/straight
     echo "Installing DOOM Emacs.."
-    ~/.emacs.d/bin/doom install --yes
+    ~/.emacs.d/bin/doom install
     and echo "Successfully installed DOOM Emacs"\n\n
     or echo "Failed to install DOOM Emacs"\n\n
     echo "Compiling DOOM Emacs.."
