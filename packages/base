@@ -12,6 +12,7 @@ firefox-developer-edition
 firefox-gnome-theme-maia
 fish
 flameshot
+git-delta
 kitty
 mpv
 ncdu
@@ -27,4 +28,5 @@ pulseaudio-equalizer-ladspa
 pulseaudio-modules-bt
 pulseaudio-zeroconf
 shellcheck
+starship
 the_silver_searcher
