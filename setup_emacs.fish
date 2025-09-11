@@ -1,4 +1,4 @@
-#!/usr/bin/env fish
+#!/opt/homebrew/bin/fish
 
 if test -d ~/.doom.d
     echo "DOOM Emacs personal configuration already set up"
@@ -23,16 +23,12 @@ if not test -d ~/.emacs.d/.local/straight
     ~/.emacs.d/bin/doom install
     and echo "Successfully installed DOOM Emacs"\n\n
     or echo "Failed to install DOOM Emacs"\n\n
-    echo "Compiling DOOM Emacs.."
-    ~/.emacs.d/bin/doom compile
-    and "Successfully compiled DOOM Emacs"\n\n
-    or echo "failed to compile DOOM Emacs"\n\n
 else
     echo "DOOM Emacs already installed"
 end
 
 # Add doom to path if not already added.
-if not contains /home/*/.emacs.d/bin $fish_user_paths
+if not contains ~/.emacs.d/bin $fish_user_paths
     echo "Adding DOOM to user path"
     set -Ua fish_user_paths ~/.emacs.d/bin
 else
