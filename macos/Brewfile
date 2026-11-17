@@ -1,0 +1,110 @@
+tap "d12frosted/emacs-plus", trusted: true
+tap "neomacs-core/tap"
+tap "raine/git-surgeon", trusted: true
+# Shell extension to jump to frequently used directories
+brew "autojump"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
+brew "btop"
+# Cross-platform make
+brew "cmake"
+# Container runtimes on MacOS (and Linux) with minimal setup
+brew "colima"
+# Diff that understands syntax
+brew "difftastic"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Isolated development environments using Docker
+brew "docker-compose"
+# .NET Core
+brew "dotnet"
+# Run arbitrary commands when files change
+brew "entr"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Open-source GitLab command-line tool
+brew "glab"
+# GitHub Markdown previewer
+brew "grip"
+# Generic library support script
+brew "libtool"
+# Tools and libraries to manipulate images in select formats
+brew "imagemagick"
+# DevTools proxy for iOS devices
+brew "ios-webkit-debug-proxy"
+# International Ispell
+brew "ispell"
+# Image manipulation library
+brew "jpeg"
+# JIT library for the GNU compiler collection
+brew "libgccjit"
+# Library to render SVG files using Cairo
+brew "librsvg"
+# Fast, flexible, config-based cli for linting Markdown/CommonMark files
+brew "markdownlint-cli2"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node@24"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
+# Autoformat shell script source code
+brew "shfmt"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Code-search similar to ack
+brew "the_silver_searcher"
+# Simplified and community-driven man pages
+brew "tldr"
+# Incremental parsing library
+brew "tree-sitter"
+# GNU Emacs text editor
+brew "d12frosted/emacs-plus/emacs-plus@31", trusted: true
+# Non-interactive hunk-level git staging for AI agents
+brew "raine/git-surgeon/git-surgeon"
+# Web browser
+cask "firefox"
+cask "font-caskaydia-mono-nerd-font"
+cask "font-comic-shanns-mono-nerd-font"
+cask "font-fantasque-sans-mono-nerd-font"
+cask "font-fira-mono-nerd-font"
+cask "font-iosevka-nerd-font"
+cask "font-jetbrains-mono-nerd-font"
+cask "font-monofur-nerd-font"
+cask "font-noto-sans-symbols-2"
+cask "font-opendyslexic-nerd-font"
+cask "font-sf-mono-nerd-font-ligaturized"
+cask "font-victor-mono-nerd-font"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# GPU-based terminal emulator
+cask "kitty"
+# Emacs-compatible text editor with a GPU-accelerated renderer
+cask "neomacs-core/tap/neomacs", trusted: true
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+npm "@agentclientprotocol/claude-agent-acp"
+npm "@github/copilot-language-server"
+npm "all-the-package-names"
+npm "bash-language-server"
+npm "eslint"
+npm "prettier"
+npm "typescript-language-server"
+npm "typescript"
+npm "vls"
+npm "vscode-css-languageserver-bin"
+npm "vscode-html-languageserver-bin"
+npm "vscode-json-languageserver"
+npm "yaml-language-server"
+npm "yarn"
